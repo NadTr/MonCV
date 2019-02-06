@@ -13,7 +13,7 @@ body{
   border-radius: 2em;
   background-color: rgba(255,255, 255, 0.6);
   margin: 5em;
-  padding: 1.5em;
+  padding: .1em;
 
 }
 p{
@@ -34,7 +34,7 @@ p{
 }
 .infos{
   margin-top: 2em;
-margin-left: 5em;
+margin-left: 4em;
 grid-column: 1;
 font-size: 1.1em;
 }
@@ -44,13 +44,15 @@ font-size: 1.1em;
 }
 
 .name{
-  font-size: 1.8em;
+  font-size: 2em;
+  font-weight: bold;
 }
-img{
-width: auto;
+.fa-user{
+width: 15%;
+margin: auto;
 }
 .section{
-  margin-left: 4em;
+  margin-left: 2em;
   margin-bottom: 2.5em;
 grid-template-columns: 0.25fr 1fr;
 text-align: justify;
@@ -64,7 +66,7 @@ font-weight: 550;
   grid-column: 1/3;
 }
 .sec-gauche{
-  margin-left: 2em;
+  margin-left: 1em;
   grid-column: 1;
 }
 .date {
@@ -77,14 +79,15 @@ font-weight: 550;
 }
 .lieu{
   font-weight: normal;
-  font-style: italic;
   font-size: .95em;
 }
 .expl{
-  font-weight: normal;
- font-size: .9em;
+  font-style: italic;
+  font-weight: 300;
+ font-size: .87em;
  margin-top: -0.9em;
  margin-bottom:-0.5em;
+ margin-left: 4em;
 }
 .descr{
   font-weight: normal;
