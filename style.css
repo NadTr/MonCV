@@ -20,6 +20,10 @@ p{
   margin: 1em;
 }
 
+img{
+  max-width: 70%;
+
+}
 /*mise en page*/
 .page{
   font-size: 1.2em;
